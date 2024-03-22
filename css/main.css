@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "MaisonNeue-Bold";
+  src: url("../fonts/MaisonNeue-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MaisonNeue-Medium";
+  src: url("../fonts/MaisonNeue-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MaisonNeue-Thin";
+  src: url("../fonts/MaisonNeue-Thin.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MaisonNeue-Light";
+  src: url("../fonts/MaisonNeueTRIAL-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MaisonNeue-Book";
+  src: url("../fonts/MaisonNeueTRIAL-Book.otf") format("opentype");
+}
+
+
+
+.title-subhead {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  font-family: "MaisonNeue-Medium";
+  text-transform: uppercase;
+  font-size: 80px;
+  line-height: 1.8em;
+  padding-left: 25px;
+}
+
+h2{
+  font-size: 65px;
+  line-height: 0.7em;
+}
