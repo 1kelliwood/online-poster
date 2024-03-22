@@ -15,7 +15,7 @@
 
 @font-face {
   font-family: "MaisonNeue-Light";
-  src: url("../fonts/MaisonNeueTRIAL-Light.otf") format("opentype");
+  src: url("../fonts/MaisonNeue-Light.otf") format("opentype");
 }
 
 @font-face {
@@ -23,7 +23,15 @@
   src: url("../fonts/MaisonNeueTRIAL-Book.otf") format("opentype");
 }
 
+@font-face{
+  font-family: "MaisonNeueMono-Regular";
+  src: url("../fonts/MaisonNeueMonoTrial-Regular.otf") format("opentype");
 
+}
+
+body{
+  cursor: url('path-to-image.png'), auto;
+}
 
 .title-subhead {
   position: absolute;
@@ -37,7 +45,69 @@
   padding-left: 25px;
 }
 
+h1{
+
+}
+
 h2{
   font-size: 65px;
   line-height: 0.7em;
 }
+
+#speakers {
+  font-family: "MaisonNeue-Light";
+  font-weight: 300;
+}
+
+.date,
+.time,
+.location {
+  font-family: "MaisonNeue-Medium";
+  font-size: 18px;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 80px;
+
+}
+
+.dot {
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#anther_kiley .dot {
+  height: 50px;
+  width: 50px;
+  background-color: #bbb;
+}
+
+#takahashi_kuan .dot{
+  height: 100px;
+  width: 100px;
+  background-color: #bbb;
+}
+
+#e_roon_kang .dot{
+  height: 80px;
+  width: 80px;
+  background-color: #bbb;
+
+}
+
+#sebastian_aubin .dot{
+  height: 70px;
+  width: 70px;
+  background-color: #bbb;
+
+}
+
+// .cursor
+width: 200px;
+height: 200px;
+background: black;
+border-radius; 50px;
+position: fixed;
+transform-translate: (-50px, -50px;)
+mix-blend-mode: difference; 
