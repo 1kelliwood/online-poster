@@ -29,8 +29,10 @@
 
 }
 
+
+
 body{
-  cursor: url('path-to-image.png'), auto;
+  margin: 0;
 }
 
 .title-subhead {
@@ -43,6 +45,7 @@ body{
   font-size: 80px;
   line-height: 1.8em;
   padding-left: 25px;
+  color: deeppink;
 }
 
 h1{
@@ -54,9 +57,35 @@ h2{
   line-height: 0.7em;
 }
 
+#show-speakers {
+  color: deeppink;
+  font-family: "MaisonNeue-Medium";
+  font-size: 400px;
+}
+
 #speakers {
+  display: none;
   font-family: "MaisonNeue-Light";
   font-weight: 300;
+}
+
+.speakers-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.dot {
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.event {
+  width: 25%;
+}
+
+.event_details,
+.event h3 {
+  display: none;
 }
 
 .date,
@@ -69,45 +98,42 @@ h2{
 h3 {
   text-transform: uppercase;
   font-size: 80px;
-
+  line-height: 0.8em;
 }
 
-.dot {
-  border-radius: 50%;
-  display: inline-block;
-}
-
-#anther_kiley .dot {
+#anther_kiley_dot {
+  margin-top: 300px;
+  margin-left: 300px;
   height: 50px;
   width: 50px;
-  background-color: #bbb;
+  background-color: deeppink;
 }
 
-#takahashi_kuan .dot{
+#takahashi_kuan_dot {
+  margin-top: 150px;
+  margin-left: 200px;
   height: 100px;
   width: 100px;
-  background-color: #bbb;
+  background-color: deeppink;
 }
 
-#e_roon_kang .dot{
+#e_roon_kang_dot{
   height: 80px;
   width: 80px;
-  background-color: #bbb;
-
+  background-color: deeppink;
 }
 
-#sebastian_aubin .dot{
+#sebastian_aubin_dot{
   height: 70px;
   width: 70px;
-  background-color: #bbb;
-
+  background-color: deeppink;
 }
 
-// .cursor
+/* .cursor
 width: 200px;
 height: 200px;
 background: black;
 border-radius; 50px;
 position: fixed;
 transform-translate: (-50px, -50px;)
-mix-blend-mode: difference; 
+mix-blend-mode: difference;  */
