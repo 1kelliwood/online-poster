@@ -1,7 +1,7 @@
 $(document).ready(() => {
 
     $("#show-speakers").click(function(){
-    $("#introduction").hide();
+     $("#introduction").hide();
     $("#speakers").show(); 
     });
 
@@ -23,6 +23,12 @@ $(document).ready(() => {
       $("#sebastian_aubin").click(function(){
         $("#sebastian_aubin h3").toggle();
         $("#sebastian_aubin .event_details").toggle();
+    });
+
+    document.addEventListener('mousemove', function(e) {
+        var cursor = document.querySelector('.custom-cursor');
+        cursor.style.left = e.pageX + 'px';
+        cursor.style.top = e.pageY + 'px';
     });
 
 

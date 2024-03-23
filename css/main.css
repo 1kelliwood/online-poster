@@ -30,7 +30,6 @@
 }
 
 
-
 body{
   margin: 0;
 }
@@ -42,7 +41,7 @@ body{
   z-index: -1;
   font-family: "MaisonNeue-Medium";
   text-transform: uppercase;
-  font-size: 80px;
+  font-size: 90px;
   line-height: 1.8em;
   padding-left: 25px;
   color: deeppink;
@@ -53,30 +52,39 @@ h1{
 }
 
 h2{
-  font-size: 65px;
-  line-height: 0.7em;
+  font-size: 50px;
+  line-height: 0.9em;
+  font-family: "MaisonNeue-Medium";
 }
 
 #show-speakers {
+
   color: deeppink;
   font-family: "MaisonNeue-Medium";
-  font-size: 400px;
+  font-size: 200px;
+  margin-left: 300px;
 }
 
 #speakers {
-  display: none;
+  display:initial;
   font-family: "MaisonNeue-Light";
   font-weight: 300;
+  margin-left: 50px;
+  color: deeppink;
+
 }
 
 .speakers-container {
   display: flex;
   flex-direction: row;
+  background-color: black;
+  size: 2000px;
 }
 
 .dot {
   border-radius: 50%;
   display: inline-block;
+  animation-name: inherit;
 }
 
 .event {
@@ -86,6 +94,7 @@ h2{
 .event_details,
 .event h3 {
   display: none;
+  background-color: black;
 }
 
 .date,
@@ -93,47 +102,148 @@ h2{
 .location {
   font-family: "MaisonNeue-Medium";
   font-size: 18px;
+  padding-left: 90px;
+  background-color: black;
 }
 
-h3 {
-  text-transform: uppercase;
-  font-size: 80px;
-  line-height: 0.8em;
+.info{
+  padding-left: 90px;
+  padding-right: 75px;
+  padding-bottom: 200px;
+   background-color: black;
 }
+
+.external_links{
+ color: rgb(255, 255, 255);
+ font-family: "MaisonNeue-Light";
+ font-weight: 300;
+}
+
+
+h3 {
+  font-size: 50px;
+  line-height: 1em;
+  margin-left: 80px;
+  color: white;
+}
+
+
 
 #anther_kiley_dot {
   margin-top: 300px;
   margin-left: 300px;
   height: 50px;
   width: 50px;
+  background-color: rgb(0, 0, 0);
+  animation: colorChange 4s ease-in-out infinite alternate;
+  }
+
+@keyframes colorChange {
+  0% {
+  background-color: black;
+  }
+
+  50% {
   background-color: deeppink;
+  }
+
+  100% {
+  background-color: black;
+  }
 }
 
 #takahashi_kuan_dot {
   margin-top: 150px;
-  margin-left: 200px;
+  margin-left: 275px;
   height: 100px;
   width: 100px;
+  background-color: rgb(0, 0, 0);
+  animation: colorChange 5s ease-in-out infinite alternate;
+  
+}
+
+@keyframes colorChange {
+  0% {
+  background-color: black;
+  }
+
+  50% {
   background-color: deeppink;
+  }
+
+  100% {
+  background-color: black;
+  }
 }
 
 #e_roon_kang_dot{
+  margin-top: 250px;
+  margin-left: 75px;
   height: 80px;
   width: 80px;
-  background-color: deeppink;
+  background-color: rgb(0, 0, 0);
+  animation: colorChange 3s ease-in-out infinite alternate;
+  @keyframes colorChange {
+    0% {
+    background-color: black;
+    }
+  
+    50% {
+    background-color: deeppink;
+    }
+  
+    100% {
+    background-color: black;
+    }
+  }
+
 }
+
 
 #sebastian_aubin_dot{
-  height: 70px;
-  width: 70px;
-  background-color: deeppink;
+  margin-top: 90px;
+  margin-right: 30px;
+  height: 65px;
+  width: 65px;
+  background-color: rgb(0, 0, 0);
+  animation: colorChange 2s ease-in-out infinite alternate;
+  @keyframes colorChange {
+    0% {
+    background-color: black;
+    }
+  
+    50% {
+    background-color: deeppink;
+    }
+  
+    100% {
+    background-color: black;
+    }
+  }
+
 }
 
-/* .cursor
-width: 200px;
-height: 200px;
-background: black;
-border-radius; 50px;
-position: fixed;
-transform-translate: (-50px, -50px;)
-mix-blend-mode: difference;  */
+
+.custom-cursor {
+width: 20px;
+height: 20px;
+background: rgba(255, 255, 255, 0.76);
+border-radius: 50%;
+position: absolute;
+transition: transform 0.2s ease;
+z-index: 9999;
+}
+
+
+.custom-cursor:hover {
+  transform: scale(4); 
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+}
