@@ -41,9 +41,9 @@ body{
   z-index: -1;
   font-family: "MaisonNeue-Medium";
   text-transform: uppercase;
-  font-size: 90px;
+  font-size: 95px;
   line-height: 1.8em;
-  padding-left: 25px;
+  padding-left: 60px;
   color: deeppink;
 }
 
@@ -52,24 +52,22 @@ h1{
 }
 
 h2{
-  font-size: 50px;
+  font-size: 55px;
   line-height: 0.9em;
   font-family: "MaisonNeue-Medium";
 }
 
-#show-speakers {
-
-  color: deeppink;
-  font-family: "MaisonNeue-Medium";
-  font-size: 200px;
-  margin-left: 300px;
+h4{
+  padding-left: 0;
+  font-size: 30px;
 }
+
 
 #speakers {
   display:initial;
   font-family: "MaisonNeue-Light";
   font-weight: 300;
-  margin-left: 50px;
+  margin-left: 40px;
   color: deeppink;
 
 }
@@ -78,7 +76,7 @@ h2{
   display: flex;
   flex-direction: row;
   background-color: black;
-  size: 2000px;
+
 }
 
 .dot {
@@ -97,18 +95,20 @@ h2{
   background-color: black;
 }
 
+
+
 .date,
 .time,
 .location {
   font-family: "MaisonNeue-Medium";
   font-size: 18px;
-  padding-left: 90px;
+  padding-left: 30px;
+  padding-right: 30px;
   background-color: black;
 }
 
 .info{
-  padding-left: 90px;
-  padding-right: 75px;
+  padding-right: 30px;
   padding-bottom: 200px;
    background-color: black;
 }
@@ -121,17 +121,17 @@ h2{
 
 
 h3 {
-  font-size: 50px;
+  font-size: 45px;
   line-height: 1em;
-  margin-left: 80px;
+  margin-left: 30px;
   color: white;
 }
 
 
 
 #anther_kiley_dot {
-  margin-top: 300px;
-  margin-left: 300px;
+  margin-top: 50px;
+  margin-left: 75px;
   height: 50px;
   width: 50px;
   background-color: rgb(0, 0, 0);
@@ -230,7 +230,7 @@ height: 20px;
 background: rgba(255, 255, 255, 0.76);
 border-radius: 50%;
 position: absolute;
-transition: transform 0.2s ease;
+transition: transform 0.4s ease;
 z-index: 9999;
 }
 
@@ -246,4 +246,10 @@ a{
 
 a:hover{
   color: white;
+}
+
+.scroll-container {
+  width: 300px; 
+  height: 200px; 
+  overflow: auto; 
 }
