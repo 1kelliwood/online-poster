@@ -45,6 +45,10 @@
   line-height: 1.5;
 }
 
+body{
+  position: relative;
+}
+
 h1,
 h2,
 h3,
@@ -83,7 +87,10 @@ a{
 }
 
 #c2{
-  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* pointer-events: none; */
 }
 
 h1,
