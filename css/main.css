@@ -36,6 +36,13 @@
 }
 
 
+@font-face{
+  font-family: "SomeTimes Italic";
+  src: url("../fonts/Sometimes\ Times.woff2") format("woff2");
+
+}
+
+
 body{
   margin: 0;
 }
@@ -76,7 +83,7 @@ h3{
 }
 
 h4{
-  font-size: 100px;
+  font-size: 50px;
   margin-left: 30px;
   color: deeppink;
   font-family: "MaisonNeue-Medium";
