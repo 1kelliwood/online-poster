@@ -47,6 +47,11 @@ body{
   margin: 0;
 }
 
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
 .title-subhead {
   position: absolute;
   top: 0;
@@ -106,14 +111,7 @@ h6 {
 
 }
 
-h7 {
-  font-size: 110px;
-  font-family: "MaisonNeue-Medium";
-
-}
-
-
-#speakers {
+#content {
   display: initial;
   font-family: "MaisonNeue-Light";
   font-weight: 300;
@@ -123,12 +121,12 @@ h7 {
 }
 
 .speakers-container {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   background-color: rgb(255, 255, 255);
   position: absolute;
   top: 550px;
-  z-index: -1;
+  z-index: -1; */
 }
 
 .dot {
@@ -171,7 +169,7 @@ h7 {
 }
 
 
-.custom-cursor {
+/* .custom-cursor {
 width: 40px;
 height: 40px;
 background: rgba(0, 0, 0, 1);
@@ -185,18 +183,15 @@ z-index: 9999;
 .custom-cursor:hover {
   transform: scale(4); 
   transform: color(deeppink);
-}
+} */
 
-a{
-  color: inherit;
-  text-decoration: none;
-}
 
-.scroll-container {
+
+/* .scroll-container {
   width: 600px; 
   height: 800px; 
   overflow: auto; 
-}
+} */
 
 
 
