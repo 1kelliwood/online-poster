@@ -66,7 +66,7 @@ a{
 
 .title-subhead {
   font-family: "MaisonNeue-Medium";
-  font-size: 30px;
+  font-size: 90px;
   line-height: 1.8;
   padding-left: 5px;
   color: deeppink;
@@ -74,7 +74,7 @@ a{
 
 h1{
   text-transform: uppercase;
-  font-size: 32px;
+  font-size: 60px;
   margin-top: 15px;
   line-height: 0.8em;
   color: deeppink;
@@ -158,14 +158,14 @@ h6 {
 
 .info{
   background-color: rgb(255, 255, 255);
-  font-size: 9px;
+  font-size: 12px;
   font-family: "MaisonNeue-Light";
   overflow-wrap: break-word;
   padding-left: 10px;
 }
 
 .info p{
-  max-width: 50%;
+  max-width: 100%
 }
 
 .external_links{
