@@ -35,15 +35,18 @@
 
 }
 
-
 @font-face{
   font-family: "SomeTimes Italic";
   src: url("../fonts/Sometimes\ Times.woff2") format("woff2");
 
 }
 
-
-body{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
   margin: 0;
 }
 
@@ -52,72 +55,72 @@ a{
   text-decoration: none;
 }
 
+#content {
+  font-family: "MaisonNeue-Light";
+  font-weight: 300;
+  padding: 10px;
+  color: deeppink;
+  max-width: 100%;
+  margin: 0;
+}
+
 .title-subhead {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
   font-family: "MaisonNeue-Medium";
-  font-size: 95px;
-  line-height: 1.8em;
-  padding-left: 60px;
+  font-size: 30px;
+  line-height: 1.8;
+  padding-left: 5px;
   color: deeppink;
 }
 
 h1{
   text-transform: uppercase;
-  font-size: 150px;
+  font-size: 32px;
+  margin-top: 15px;
   line-height: 0.8em;
   color: deeppink;
-
+  padding-top: 10px;
 }
 
 h2{
-  font-size: 55px;
+  font-size: 16px;
   line-height: 0.9em;
   font-family: "MaisonNeue-Thin";
- 
+  padding-top: 40px;
+
 }
 
 h3{ 
-  font-size: 45px;
+  font-size: 14px;
   line-height: 1em;
-  padding: 25px;
+  margin: 10px;
   color: rgb(0, 0, 0);
+  font-family:"MaisonNeue-Book";
+  padding-top: 20px;
+  padding-bottom: 30px;
 
 }
 
 h4{
   font-size: 50px;
-  margin-left: 30px;
-  color: deeppink;
-  font-family: "MaisonNeue-Medium";
- 
+  color: rgb(0, 0, 0);
+  font-family: "Sometimes Times";
+  padding-top: 30px;
+  padding-left: 10px;
+  
 }
 
 h5 {
- font-size: 75px;
- padding-left: 10px;
-  color: deeppink;
+ font-size: 20px;
+  color: rgb(0, 0, 0);
   font-family: "MaisonNeue-Medium";
 }
-
 
 h6 {
-  font-size: 90px;
-  margin-left: 40px;
+  font-size: 9px;
   color: deeppink;
   font-family: "MaisonNeue-Medium";
-
-}
-
-#content {
-  display: initial;
-  font-family: "MaisonNeue-Light";
-  font-weight: 300;
-  margin-left: 40px;
-  color: deeppink;
-
+  padding-bottom: 25px;
+  padding-left: 10px;
 }
 
 .speakers-container {
@@ -136,7 +139,7 @@ h6 {
 }
 
 .event {
-  width: 100%;
+  /* width: 100%; */
 }
 
 .event_details,
@@ -148,24 +151,31 @@ h6 {
 .time,
 .location {
   font-family: "MaisonNeue-Medium";
-  font-size: 20px;
-  padding-left: 50px;
-  padding-right: 15px;
-
+  padding-left: 10px;
+  font-size: 13px;
   background-color: rgb(255, 255, 255);
 }
 
 .info{
-  padding-left: 50px;
-  padding-right: 200px;
   background-color: rgb(255, 255, 255);
-  font-size: 14px;
+  font-size: 9px;
+  font-family: "MaisonNeue-Light";
+  overflow-wrap: break-word;
+  padding-left: 10px;
+}
+
+.info p{
+  max-width: 50%;
 }
 
 .external_links{
  color: rgb(0, 0, 0);
  font-family: "MaisonNeue-Medium";
  font-weight: 300;
+}
+
+#c2{
+  pointer-events: none;
 }
 
 
