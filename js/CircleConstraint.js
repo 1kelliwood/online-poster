@@ -9,7 +9,7 @@ let random = new c2.Random();
 
 let world = new c2.World(new c2.Rect(0, 0, renderer.width, renderer.height));
 
-for(let i=0; i<renderer.canvas.parentElement.clientWidth/30; i++){
+for(let i=0; i<renderer.canvas.parentElement.clientWidth/20; i++){
   let x = random.next(renderer.width);
   let y = random.next(renderer.height);
   let p = new c2.Particle(x, y);
@@ -33,7 +33,10 @@ world.addInteractionForce(collision);
 let pointField = new c2.PointField(new c2.Point(renderer.width/2, renderer.height/2), 1);
 world.addForce(pointField);
 
-let circle = new c2.Circle(renderer.width/2, renderer.height/2, renderer.height/4);
+let x = renderer.width/300;
+let y = renderer.width/150;
+
+let circle = new c2.Circle(renderer.width/x, renderer.height/x, renderer.height/y);
 let circleConstraint = new c2.CircleConstraint(circle);
 world.addConstraint(circleConstraint);
 
@@ -70,15 +73,6 @@ function resize() {
     let parent = renderer.canvas.parentElement;
     renderer.size(parent.clientWidth, parent.clientWidth / parent.clientWidth * parent.clientHeight);
 }
-
-window.addEventListener('onclick', onclick);
-function onclick() {
-}
-alert("Second Onclick Test");
-
-
-
-
 
 
 // Ideas from Critique
