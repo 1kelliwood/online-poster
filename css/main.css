@@ -54,7 +54,7 @@ body{
 
 h1{
   text-transform: uppercase;
-  font-size: 125px;
+  font-size: 150px;
   line-height: 0.8em;
   color: deeppink;
 
@@ -70,7 +70,7 @@ h2{
 h3{ 
   font-size: 45px;
   line-height: 1em;
-  margin-left: 30px;
+  padding: 25px;
   color: rgb(0, 0, 0);
 
 }
@@ -84,8 +84,8 @@ h4{
 }
 
 h5 {
-  font-size: 75px;
-  margin-left: 60px;
+ font-size: 75px;
+ padding-left: 10px;
   color: deeppink;
   font-family: "MaisonNeue-Medium";
 }
@@ -93,13 +93,13 @@ h5 {
 
 h6 {
   font-size: 90px;
-  margin-left: 60px;
+  margin-left: 40px;
   color: deeppink;
   font-family: "MaisonNeue-Medium";
 
 }
 
-h7{
+h7 {
   font-size: 110px;
   font-family: "MaisonNeue-Medium";
 
@@ -114,7 +114,6 @@ h7{
   color: deeppink;
 
 }
-
 
 .speakers-container {
   display: flex;
@@ -145,19 +144,22 @@ h7{
 .location {
   font-family: "MaisonNeue-Medium";
   font-size: 20px;
-  padding-left: 30px;
+  padding-left: 50px;
+  padding-right: 15px;
+
   background-color: rgb(255, 255, 255);
 }
 
 .info{
+  padding-left: 50px;
   padding-right: 200px;
   background-color: rgb(255, 255, 255);
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .external_links{
- color: deeppink;
- font-family: "MaisonNeue-Light";
+ color: rgb(0, 0, 0);
+ font-family: "MaisonNeue-Medium";
  font-weight: 300;
 }
 
@@ -184,12 +186,14 @@ a{
 }
 
 .scroll-container {
-  width: 800px; 
+  width: 600px; 
   height: 800px; 
   overflow: auto; 
 }
 
 
+
+/* Second critique concept
 #anther_kiley_dot {
   margin-top: 50px;
   margin-left: 75px;
