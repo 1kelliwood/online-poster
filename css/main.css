@@ -79,6 +79,7 @@ p,
 ol,
 ul{
   margin: 0;
+  font-weight: normal;
 }
 
 ol,
@@ -225,7 +226,7 @@ h5{
 
 .number{
   font-family: "BoogyBrutTEST-Black";
-  font-size: 100px;
+  font-size: 150px;
   padding-left: 30px;
 
 }
