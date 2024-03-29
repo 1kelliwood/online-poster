@@ -106,27 +106,35 @@ h5{
 
 .title{
   font-family: "MaisonNeue-Medium";
-  font-size: 80px;
+  font-size: 70px;
   line-height: 0.8;
+  padding-top: 15px;
+  padding-bottom: 15px;
   text-transform: uppercase;
+  
+
 }
 
 .subtitle{
-  font-size: 16px;
+  font-size: 18px;
   line-height: 0.9;
-  font-family: "MaisonNeue-Thin";
+  padding-top: 40px;
+  font-family: "MaisonNeue-Medium";
 }
 
 .speakers-title{
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1;
   font-family:"MaisonNeue-Book";
+  color:black
+
 }
 
 .speakers-subtitle{
-  font-size: 9px;
-  color: deeppink;
-  font-family: "MaisonNeue-Medium";
+  font-size: 11px;
+  padding-top: 20px;
+    color: deeppink;
+  font-family: "MaisonNeue-Light";
 }
 
 .speakers-container{
@@ -166,7 +174,13 @@ h5{
 }
 
 @media screen and (width: 600px){
-  
+  .title{
+    font-size: 90px;
+  }
+
+  .subtitle{
+    font-size: 80px;
+  }
 }
 
 

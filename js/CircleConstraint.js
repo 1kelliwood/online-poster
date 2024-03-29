@@ -33,10 +33,7 @@ world.addInteractionForce(collision);
 let pointField = new c2.PointField(new c2.Point(renderer.width/2, renderer.height/2), 1);
 world.addForce(pointField);
 
-let x = renderer.width/300;
-let y = renderer.width/150;
-
-let circle = new c2.Circle(renderer.width/x, renderer.height/x, renderer.height/y);
+let circle = new c2.Circle(renderer.width/8, renderer.height/8, renderer.height/16);
 let circleConstraint = new c2.CircleConstraint(circle);
 world.addConstraint(circleConstraint);
 
