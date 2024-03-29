@@ -23,43 +23,30 @@
   src: url("../fonts/MaisonNeueTRIAL-Book.otf") format("opentype");
 }
 
-@font-face{
-  font-family: "MaisonNeueMono-Regular";
-  src: url("../fonts/MaisonNeueMonoTrial-Regular.otf") format("opentype");
-
-}
 
 @font-face{
   font-family: "MaisonNeue-LightItalic";
   src: url("../fonts/MaisonNeueTRIAL-LightItalic.otf") format("opentype");
 
 }
+  
+@font-face{
+font-family: "BoogyBrut_TESTLight";
+src: url("../fonts/BoogyBrutTEST-Light.otf") format("opentype");
+     }
 
 @font-face{
-  font-family: "SomeTimes Regular";
-  src: url("../fonts/Sometimes\ Times.woff2") format("woff2");
-  }
+font-family: "BoogyBrutTEST-Book";
+src: url("../fonts/BoogyBrutTEST-Book.otf") format("opentype");
+            }
+          
 
-  @font-face{
-    font-family: "SomeTimes Regular";
-    src: url("../fonts/Sometimes\ Times.woff2") format("woff2");
-    }
+@font-face{
+font-family: "BoogyBrutTEST-Black";
+src: url("../fonts/BoogyBrutPosterTEST-Black.otf") format("opentype");
+      }
+    
   
-    @font-face{
-      font-family: "BoogyBrut_TESTLight";
-      src: url("../fonts/BoogyBrutTEST-Light.otf") format("opentype");
-      }
-
-
-    @font-face{
-      font-family: "BoogyBrutTEST-Black";
-      src: url("../fonts/BoogyBrutPosterTEST-Black.otf") format("opentype");
-      }
-    
-
-
-    
-
 
 :root{
   line-height: 1.5;
@@ -124,53 +111,19 @@ h5{
   color: rgb(0, 0, 0);
 }
 
-.title-research{
-  font-family: "BoogyBrut_TESTLight";
-  font-size: 50px;
-  line-height: 0.9;
+.title{
+  font-family: "MaisonNeue-Bold";
+  font-size: 75px;
+  line-height: 0.8;
   padding-top: 15px;
-  padding-left: 35px;
-  color: black;
+  padding-left: 15px;
+  padding-bottom: 30px;
+  color: deeppink;
+  text-transform: uppercase;
+  
   
 }
 
-.title-methods{
-  font-family: "BoogyBrut_TESTLight";
-  font-size: 50px;
-  line-height: 0.9;
-  padding-left: 15px;
-  padding-bottom: -30px;
-  color: black;
-   }
-
-.title-of{
-  font-family: "MaisonNeue-Light";
-  font-size: 35px;
-  line-height: 0.9;
-  padding-left: 202px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  font-family: "MaisonNeue-Light";
-
-}
-
-.title-graphic{
-  font-family: "MaisonNeue-Bold";
-  font-size: 80px;
-  line-height: 0.8;
-
-  padding-left: 5px;
-  text-transform: uppercase;
-}
-
-.title-design{
-  font-family: "MaisonNeue-Bold";
-  font-size: 80px;
-  line-height: 0.8;
-  padding-left: 95px;
-  padding-bottom: 80px;
-  text-transform: uppercase;
-}
 
 .subtitle{
   font-size: 16px;
@@ -188,7 +141,7 @@ h5{
 .speakers-title{
   font-size: 30px;
   line-height: 0.3;
-  font-family:"BoogyBrut_TESTLight";
+  font-family:"BoogyBrutTEST-Book";
   color:black;
   padding-left: 5px;
 }
@@ -199,16 +152,6 @@ h5{
   padding-left: 5px;
   color: deeppink;
   font-family: "MaisonNeue-Light";
-
-}
-
-.speakers-container{
-  /* display: flex;
-  flex-direction: row;
-  background-color: rgb(255, 255, 255);
-  position: absolute;
-  top: 550px;
-  z-index: -1; */
 }
 
 .dot{
@@ -218,7 +161,7 @@ h5{
 }
 
 .name{
-  font-family: "MaisonNeue-Medium";
+  font-family: "BoogyBrutTEST-Book";
   color: black;
   font-size: 28px;
   padding-left: 5px;
@@ -228,7 +171,6 @@ h5{
   font-family: "BoogyBrutTEST-Black";
   font-size: 150px;
   padding-left: 30px;
-
 }
 
 .date,
@@ -270,6 +212,104 @@ h5{
     padding-bottom: 40px;
   }
 }
+
+.speakers-title{
+  font-size: 30px;
+  line-height: 0.3;
+  font-family:"BoogyBrutTEST-Book";
+  color:black;
+  padding-left: 5px;
+}
+
+.speakers-subtitle{
+  font-size: 15px;
+  padding-top: 20px;
+  padding-left: 5px;
+  color: deeppink;
+  font-family: "MaisonNeue-Light";
+}
+
+.dot{
+  border-radius: 50%;
+  display: inline-block;
+  animation-name: inherit;
+}
+
+.name{
+  font-family: "BoogyBrutTEST-Book";
+  color: black;
+  font-size: 28px;
+  padding-left: 5px;
+}
+
+.number{
+  font-family: "BoogyBrutTEST-Black";
+  font-size: 150px;
+  padding-left: 30px;
+}
+
+.date,
+.time,
+.location{
+  font-family: "MaisonNeue-Medium";
+  font-size: 18px;
+  background-color: rgb(255, 255, 255);
+  line-height: 1.3;
+  padding-left: 5px;
+  
+  
+}
+
+.info{
+  background-color: rgb(255, 255, 255);
+  font-size: 13px;
+  font-family: "MaisonNeue-Light";
+  overflow-wrap: break-word;
+  padding-top: 20px;
+  padding-left: 15px;
+  line-height: 1.4;
+}
+
+.external_links{
+ color: rgb(0, 0, 0);
+ font-family: "MaisonNeue-Medium";
+ font-weight: 300;
+ padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* .custom-cursor {
@@ -392,4 +432,12 @@ z-index: 9999;
     }
   }
 
+}
+.speakers-container{
+  /* display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 550px;
+  z-index: -1; */
 }
