@@ -129,6 +129,7 @@ h5{
   line-height: 0.9;
   padding-top: 15px;
   padding-left: 35px;
+  color: black;
   
 }
 
@@ -138,13 +139,16 @@ h5{
   line-height: 0.9;
   padding-left: 15px;
   padding-bottom: -30px;
+  color: black;
    }
 
 .title-of{
   font-family: "MaisonNeue-Light";
-  font-size: 40px;
+  font-size: 35px;
   line-height: 0.9;
-  padding-left: 230px;
+  padding-left: 202px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   font-family: "MaisonNeue-Light";
 
 }
@@ -153,7 +157,7 @@ h5{
   font-family: "MaisonNeue-Bold";
   font-size: 80px;
   line-height: 0.8;
-  padding-top: 15px;
+
   padding-left: 5px;
   text-transform: uppercase;
 }
