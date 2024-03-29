@@ -27,43 +27,43 @@
 /* complete */
 
 @font-face {
-  font-family: "IvoryLLTrialWeb-Light";
-  src: url("IvoryLLTrialWeb-Light.woff2") format("woff2");
+  font-family: "ReplicaLLTrialWeb-Light";
+  src: url("ReplicaLLTrialWeb-Light.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "IvoryLLTrialWeb-LightItalic";
-  src: url("IvoryLLTrialWeb-LightItalic.woff2") format("woff2");
+  font-family: "ReplicaLLTrialWeb-LightItalic";
+  src: url("ReplicaLLTrialWeb-LightItalic.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "IvoryLLTrialWeb-Regular";
-  src: url("IvoryLLTrialWeb-Regular.woff2") format("woff2");
+  font-family: "ReplicaLLTrialWeb-Regular";
+  src: url("ReplicaLLTrialWeb-Regular.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "IvoryLLTrialWeb-Italic";
-  src: url("IvoryLLTrialWeb-Italic.woff2") format("woff2");
+  font-family: "ReplicaLLTrialWeb-Italic";
+  src: url("ReplicaLLTrialWeb-Italic.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "IvoryLLTrialWeb-Medium";
-  src: url("IvoryLLTrialWeb-Medium.woff2") format("woff2");
+  font-family: "ReplicaLLTrialWeb-Bold";
+  src: url("ReplicaLLTrialWeb-Bold.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "IvoryLLTrialWeb-MediumItalic";
-  src: url("IvoryLLTrialWeb-MediumItalic.woff2") format("woff2");
+  font-family: "ReplicaLLTrialWeb-BoldItalic";
+  src: url("ReplicaLLTrialWeb-BoldItalic.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "IvoryLLTrialWeb-Bold";
-  src: url("IvoryLLTrialWeb-Bold.woff2") format("woff2");
+  font-family: "ReplicaLLTrialWeb-Heavy";
+  src: url("ReplicaLLTrialWeb-Heavy.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "IvoryLLTrialWeb-BoldItalic";
-  src: url("IvoryLLTrialWeb-BoldItalic.woff2") format("woff2");
+  font-family: "ReplicaLLTrialWeb-HeavyItalic";
+  src: url("ReplicaLLTrialWeb-HeavyItalic.woff2") format("woff2");
 }
 
 
