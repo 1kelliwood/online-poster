@@ -9,7 +9,7 @@ let random = new c2.Random();
 
 let world = new c2.World(new c2.Rect(0, 0, renderer.width, renderer.height));
 
-for(let i=0; i<renderer.canvas.parentElement.clientWidth/28; i++){
+for(let i=0; i<renderer.canvas.parentElement.clientWidth/10; i++){
   let x = random.next(renderer.width);
   let y = random.next(renderer.height);
   let p = new c2.Particle(x, y);
@@ -33,7 +33,7 @@ world.addInteractionForce(collision);
 let pointField = new c2.PointField(new c2.Point(renderer.width/2, renderer.height/2), 1);
 world.addForce(pointField);
 
-let circle = new c2.Circle(renderer.width/8, renderer.height/8, renderer.height/16);
+let circle = new c2.Circle(renderer.width/4, renderer.height/4, renderer.height/8);
 let circleConstraint = new c2.CircleConstraint(circle);
 world.addConstraint(circleConstraint);
 
