@@ -23,12 +23,6 @@
   src: url("../fonts/MaisonNeueTRIAL-Book.otf") format("opentype");
 }
 
-
-@font-face{
-  font-family: "MaisonNeue-LightItalic";
-  src: url("../fonts/MaisonNeueTRIAL-LightItalic.otf") format("opentype");
-
-}
   
 @font-face{
 font-family: "BoogyBrut_TESTLight";
@@ -52,9 +46,11 @@ src: url("../fonts/BoogyBrutPosterTEST-Black.otf") format("opentype");
   line-height: 1.5;
 }
 
+
 body{
   position: relative;
   height: 100vh;
+  background-color: rgb(0, 0, 0);
 }
 
 h1,
@@ -110,7 +106,21 @@ a{
   position:-webkit-sticky;
   top: 0;
   min-height: 50vh;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+#speakers-banner{
+  font-size: 30px;
+  font-style: "MaisonNeue-Light";
+  color: white;
+
+}
+
+#show-speakers{
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-family: "MaisonNeue-Light";
 }
 
 h1,
@@ -126,28 +136,27 @@ h5{
 
 .title{
   font-family: "MaisonNeue-Bold";
-  font-size: 75px;
+  font-size: 70px;
   line-height: 0.8;
-  padding-top: 15px;
+  padding-top: 125px;
   padding-left: 15px;
-  padding-bottom: 30px;
-  color: deeppink;
+  padding-bottom: 25px;
+  color: rgb(255, 255, 255);
   text-transform: uppercase;
   
   
 }
 
-
 .subtitle{
-  font-size: 16px;
+  font-size: 24px;
   line-height: 0.9;
-  padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
-  font-family: "MaisonNeue-Light";
+  font-family: "MaisonNeue-Medium";
   font-weight: 300;
   text-transform: uppercase;
+  color: deeppink;
 
 }
 
@@ -155,7 +164,7 @@ h5{
   font-size: 30px;
   line-height: 0.3;
   font-family:"BoogyBrutTEST-Book";
-  color:black;
+  color:rgb(255, 255, 255);
   padding-left: 5px;
 }
 
@@ -210,6 +219,87 @@ h5{
 
 .external_links{
  color: rgb(0, 0, 0);
+ font-family: "MaisonNeue-Medium";
+ font-weight: 300;
+ padding-top: 20px;
+}
+
+@media screen and (width: 1200px){
+  .title{
+    font-size: 200px;
+  }
+
+  .subtitle{
+    font-size: 80px;
+    padding-bottom: 40px;
+  }
+}
+
+.speakers-title{
+  font-size: 30px;
+  line-height: 0.3;
+  font-family:"BoogyBrutTEST-Book";
+  color:rgb(255, 255, 255);
+  padding-left: 5px;
+}
+
+.speakers-subtitle{
+  font-size: 15px;
+  padding-top: 20px;
+  padding-left: 5px;
+  color: rgb(255, 255, 255);
+  font-family: "MaisonNeue-Light";
+}
+
+.dot{
+  border-radius: 50%;
+  display: inline-block;
+  animation-name: inherit;
+}
+
+.name{
+  font-family: "BoogyBrutTEST-Book";
+  color: black;
+  font-size: 28px;
+  padding-left: 30px;
+  color: white;
+}
+
+.number{
+  font-family: "BoogyBrutTEST-Black";
+  font-size: 150px;
+  padding-left: 30px;
+  color: deeppink;
+}
+
+.date,
+.time,
+.location{
+  font-family: "MaisonNeue-Medium";
+  font-size: 18px;
+  background-color: rgb(0, 0, 0);
+  color: deeppink;
+  line-height: 1.3;
+  padding-left: 25px;
+  
+  
+}
+
+.info{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 14px;
+  font-family: "MaisonNeue-Light";
+  overflow-wrap: break-word;
+  padding-top: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 100px;
+  line-height: 1.4;
+}
+
+.external_links{
+ color: deeppink;
  font-family: "MaisonNeue-Medium";
  font-weight: 300;
  padding-top: 20px;
@@ -230,7 +320,7 @@ h5{
   font-size: 30px;
   line-height: 0.3;
   font-family:"BoogyBrutTEST-Book";
-  color:black;
+  color:rgb(255, 255, 255);
   padding-left: 5px;
 }
 
@@ -238,7 +328,7 @@ h5{
   font-size: 15px;
   padding-top: 20px;
   padding-left: 5px;
-  color: deeppink;
+  color: rgb(255, 255, 255);
   font-family: "MaisonNeue-Light";
 }
 
@@ -252,13 +342,15 @@ h5{
   font-family: "BoogyBrutTEST-Book";
   color: black;
   font-size: 28px;
-  padding-left: 5px;
+  padding-left: 30px;
+  color: white;
 }
 
 .number{
   font-family: "BoogyBrutTEST-Black";
   font-size: 150px;
   padding-left: 30px;
+  color: deeppink;
 }
 
 .date,
@@ -266,30 +358,33 @@ h5{
 .location{
   font-family: "MaisonNeue-Medium";
   font-size: 18px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  color: deeppink;
   line-height: 1.3;
-  padding-left: 5px;
+  padding-left: 25px;
   
   
 }
 
 .info{
-  background-color: rgb(255, 255, 255);
-  font-size: 13px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 14px;
   font-family: "MaisonNeue-Light";
   overflow-wrap: break-word;
   padding-top: 20px;
-  padding-left: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-bottom: 100px;
   line-height: 1.4;
 }
 
 .external_links{
- color: rgb(0, 0, 0);
+ color: deeppink;
  font-family: "MaisonNeue-Medium";
  font-weight: 300;
  padding-top: 20px;
 }
-
 
 
 

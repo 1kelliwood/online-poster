@@ -5,6 +5,17 @@ $(document).ready(() => {
     });
 
     speakers-container
+
+    document.addEventListener('mousemove', function(e) {
+        var cursor = document.querySelector('.custom-cursor');
+        cursor.style.left = e.pageX + 'px';
+        cursor.style.top = e.pageY + 'px';
+    });
+
+});
+
+
+
 //    $("#anther_kiley_dot").click(function(){
 //         $("#anther_kiley h3").hide();
 //         $("#anther_kiley .event_details").show();
@@ -25,11 +36,4 @@ $(document).ready(() => {
 //         $("#sebastian_aubin .event_details").show();
 //     });
 
-    document.addEventListener('mousemove', function(e) {
-        var cursor = document.querySelector('.custom-cursor');
-        cursor.style.left = e.pageX + 'px';
-        cursor.style.top = e.pageY + 'px';
-    });
-
-});
 
