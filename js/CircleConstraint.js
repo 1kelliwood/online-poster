@@ -1,4 +1,13 @@
 
+let mX 
+let mY 
+
+document.addEventListener("mousemove",function(e){
+  mX = e.clientX
+  mY = e.clientY
+})
+
+
 const renderer = new c2.Renderer(document.getElementById('c2'));
 resize();
 
@@ -9,7 +18,7 @@ let random = new c2.Random();
 
 let world = new c2.World(new c2.Rect(0, 0, renderer.width, renderer.height));
 
-for(let i=0; i<renderer.canvas.parentElement.clientWidth/10; i++){
+for(let i=0; i<renderer.canvas.parentElement.clientWidth/25; i++){
   let x = random.next(renderer.width);
   let y = random.next(renderer.height);
   let p = new c2.Particle(x, y);
@@ -42,7 +51,7 @@ renderer.draw(() => {
     renderer.clear();
 
     let mouse = renderer.mouse;
-    circle.p = new c2.Point(mouse.x, mouse.y);
+    circle.p = new c2.Point(mX, mY);
 
     renderer.stroke('#333333');
     renderer.lineWidth(1);
