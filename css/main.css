@@ -94,7 +94,7 @@ a{
   position: absolute;
   top: 0;
   left: 0;
-  /* pointer-events: none; */
+  pointer-events: none;
 }
 
 #speakers-container{
@@ -128,16 +128,21 @@ h1,
 h2{
   color: deeppink; 
 }
-
 h3,
-h4,
+h4 { 
+  padding-top: 100px;
+  color: white;
+  font-size: 20px;
+  font-family: "MaisonNeue-Thin";
+
+}
 h5{
   color: rgb(0, 0, 0);
 }
 
 .title{
   font-family: "MaisonNeue-Bold";
-  font-size: 70px;
+  font-size: 150px;
   line-height: 0.8;
   padding-top: 125px;
   padding-left: 15px;
