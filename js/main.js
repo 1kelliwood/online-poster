@@ -1,10 +1,10 @@
 $(document).ready(() => {
 
+    $("#title").fitText();
+
     $("#show-speakers").click(function(){
         $("#speakers-container").toggle();
     });
-
-    speakers-container
 
     document.addEventListener('mousemove', function(e) {
         var cursor = document.querySelector('.custom-cursor');
@@ -13,6 +13,7 @@ $(document).ready(() => {
     });
 
 });
+
 
 
 
