@@ -23,14 +23,8 @@ for(let i=0; i<renderer.canvas.parentElement.clientWidth/25; i++){
   let y = random.next(renderer.height);
   let p = new c2.Particle(x, y);
   p.radius = random.next(10, renderer.height/14);
-  p.color = c2.Color.hsl(327, 100, 53.92);
-  // p.color = c2.Color.hsl(random.next(0, 30), random.next(30, 60), random.next(20, 100));
-  // p.color = palette[random.next(0,39)];
-
-  // const palette = ["c2.Color.hsl(345,100,67)", "c2.Color.hsl(190,90,66)", "c2.Color.hsl(103,43,68)", "c2.Color.hsl(302,51,43)", "c2.Color.hsl(325,92,79)", "c2.Color.hsl(345,99,69)", "c2.Color.hsl(50,93,48)","c2.Color.hsl(48,76,73)", "c2.Color.hsl(189,65,85)", "c2.Color.hsl(342,73,42)", "c2.Color.hsl(235,61,50)", "c2.Color.hsl(228,69,65)", "c2.Color.hsl(57,59,24)", "c2.Color.hsl(305,69,71)", "c2.Color.hsl(185,26,55)", "c2.Color.hsl(342,68,56)", "c2.Color.hsl(344,98,67)", "c2.Color.hsl(259,51,72)", "c2.Color.hsl(164,20,52)", "c2.Color.hsl(311,55,54)", "c2.Color.hsl(228,65,65)", "c2.Color.hsl(259,51,71)", "c2.Color.hsl(220,31,27)", "c2.Color.hsl(33,100,67)", "c2.Color.hsl(324,46,58)", "c2.Color.hsl(235,75,55)", "c2.Color.hsl(166,22,41)", "c2.Color.hsl(259,33,61)", "c2.Color.hsl(299,52,37)", "c2.Color.hsl(163,75,80)", "c2.Color.hsl(129,54,80)","c2.Color.hsl(51,96,51)", "c2.Color.hsl(56,96,82)", "c2.Color.hsl(324,87,76)", "c2.Color.hsl(192,68,63)", "c2.Color.hsl(53,56,26)", "c2.Color.hsl(174,87,85)", "c2.Color.hsl(342,66,51)", "c2.Color.hsl(308,43,47)"];
-
-  // const palette = ["c2.Color.hsl(,,,)", "c2.Color.hsl(,,,)", "c2.Color.hsl(,,,)"];
-  // will need to develop Array with select values from Figma colour palette
+  p.color = c2.Color.hsl(235, 61, 50);
+ 
 
   world.addParticle(p);
 }
@@ -79,6 +73,7 @@ function resize() {
     let parent = renderer.canvas.parentElement;
     renderer.size(parent.clientWidth, parent.clientWidth / parent.clientWidth * parent.clientHeight);
 }
+
 
 
 // Ideas from Critique
@@ -161,3 +156,13 @@ function resize() {
 // 308, 43, 47 - purple--> "c2.Color.hsl(308,43,47)", 
 
 
+//* Multi-color Code
+
+
+ // p.color = c2.Color.hsl(random.next(0, 30), random.next(30, 60), random.next(20, 100));
+  // p.color = palette[random.next(0,39)];
+
+  // const palette = ["c2.Color.hsl(345,100,67)", "c2.Color.hsl(190,90,66)", "c2.Color.hsl(103,43,68)", "c2.Color.hsl(302,51,43)", "c2.Color.hsl(325,92,79)", "c2.Color.hsl(345,99,69)", "c2.Color.hsl(50,93,48)","c2.Color.hsl(48,76,73)", "c2.Color.hsl(189,65,85)", "c2.Color.hsl(342,73,42)", "c2.Color.hsl(235,61,50)", "c2.Color.hsl(228,69,65)", "c2.Color.hsl(57,59,24)", "c2.Color.hsl(305,69,71)", "c2.Color.hsl(185,26,55)", "c2.Color.hsl(342,68,56)", "c2.Color.hsl(344,98,67)", "c2.Color.hsl(259,51,72)", "c2.Color.hsl(164,20,52)", "c2.Color.hsl(311,55,54)", "c2.Color.hsl(228,65,65)", "c2.Color.hsl(259,51,71)", "c2.Color.hsl(220,31,27)", "c2.Color.hsl(33,100,67)", "c2.Color.hsl(324,46,58)", "c2.Color.hsl(235,75,55)", "c2.Color.hsl(166,22,41)", "c2.Color.hsl(259,33,61)", "c2.Color.hsl(299,52,37)", "c2.Color.hsl(163,75,80)", "c2.Color.hsl(129,54,80)","c2.Color.hsl(51,96,51)", "c2.Color.hsl(56,96,82)", "c2.Color.hsl(324,87,76)", "c2.Color.hsl(192,68,63)", "c2.Color.hsl(53,56,26)", "c2.Color.hsl(174,87,85)", "c2.Color.hsl(342,66,51)", "c2.Color.hsl(308,43,47)"];
+
+  // const palette = ["c2.Color.hsl(,,,)", "c2.Color.hsl(,,,)", "c2.Color.hsl(,,,)"];
+  // will need to develop Array with select values from Figma colour palette

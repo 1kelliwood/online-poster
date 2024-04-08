@@ -35,13 +35,6 @@ src: url("../fonts/BoogyBrutTEST-Book.otf") format("opentype");
             }
           
 
-@font-face{
-font-family: "BoogyBrutTEST-Black";
-src: url("../fonts/BoogyBrutPosterTEST-Black.otf") format("opentype");
-      }
-    
-  
-
 :root{
   line-height: 1.5;
 }
@@ -50,7 +43,7 @@ src: url("../fonts/BoogyBrutPosterTEST-Black.otf") format("opentype");
 body{
   position: relative;
   height: 100vh;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
 
 h1,
@@ -103,25 +96,28 @@ section {
 
 
 #speakers-container section{
-  position:sticky;
-  position:-webkit-sticky;
-  top: 0;
-  /*min-height: 50vh;*/
-  background-color: rgb(0, 0, 0);
-  color: white;
+  display: grid;
+  height: 100vh;
+  position: absolute;
+  grid-template-columns: 1 fr 1fr 1fr 1fr;
+  grid-template-rows: 1.5fr, 1.5fr 1.5fr 1.5 fr;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+
+
 }
 
 #speakers-banner{
   font-size: 30px;
   font-style: "MaisonNeue-Light";
-  color: white;
+  color: rgb(0, 0, 0);
 
 }
 
 #show-speakers{
   font-size: 20px;
   padding-left: 30px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-family: "MaisonNeue-Light";
 }
 
@@ -132,7 +128,7 @@ h2{
 h3,
 h4 { 
   padding-top: 100px;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 20px;
   font-family: "MaisonNeue-Thin";
 
@@ -147,15 +143,13 @@ h5{
   line-height: 0.8;
   padding-top: 125px;
   padding-left: 15px;
-  padding-bottom: 25px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-transform: uppercase;
-  
-  
+    
 }
 
 .subtitle{
-  font-size: 24px;
+  font-size: 48px;
   line-height: 0.9;
   padding-left: 20px;
   padding-right: 20px;
@@ -163,7 +157,7 @@ h5{
   font-family: "MaisonNeue-Medium";
   font-weight: 300;
   text-transform: uppercase;
-  color: deeppink;
+  color: rgb(0, 0, 0);
 
 }
 
@@ -171,7 +165,7 @@ h5{
   font-size: 30px;
   line-height: 0.3;
   font-family:"BoogyBrutTEST-Book";
-  color:rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
   padding-left: 5px;
 }
 
@@ -207,7 +201,7 @@ h5{
 .location{
   font-family: "MaisonNeue-Medium";
   font-size: 18px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
   line-height: 1.3;
   padding-left: 5px;
   
@@ -215,7 +209,7 @@ h5{
 }
 
 .info{
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
   font-size: 13px;
   font-family: "MaisonNeue-Light";
   overflow-wrap: break-word;
@@ -231,86 +225,7 @@ h5{
  padding-top: 20px;
 }
 
-@media screen and (width: 1200px){
-  .title{
-    font-size: 200px;
-  }
 
-  .subtitle{
-    font-size: 80px;
-    padding-bottom: 40px;
-  }
-}
-
-.speakers-title{
-  font-size: 30px;
-  line-height: 0.3;
-  font-family:"BoogyBrutTEST-Book";
-  color:rgb(255, 255, 255);
-  padding-left: 5px;
-}
-
-.speakers-subtitle{
-  font-size: 15px;
-  padding-top: 20px;
-  padding-left: 5px;
-  color: rgb(255, 255, 255);
-  font-family: "MaisonNeue-Light";
-}
-
-.dot{
-  border-radius: 50%;
-  display: inline-block;
-  animation-name: inherit;
-}
-
-.name{
-  font-family: "BoogyBrutTEST-Book";
-  color: black;
-  font-size: 28px;
-  padding-left: 30px;
-  color: white;
-}
-
-.number{
-  font-family: "BoogyBrutTEST-Black";
-  font-size: 150px;
-  padding-left: 30px;
-  color: deeppink;
-}
-
-.date,
-.time,
-.location{
-  font-family: "MaisonNeue-Medium";
-  font-size: 18px;
-  background-color: rgb(0, 0, 0);
-  color: deeppink;
-  line-height: 1.3;
-  padding-left: 25px;
-  
-  
-}
-
-.info{
-  background-color: rgb(0, 0, 0);
-  color: white;
-  font-size: 14px;
-  font-family: "MaisonNeue-Light";
-  overflow-wrap: break-word;
-  padding-top: 20px;
-  padding-left: 35px;
-  padding-right: 35px;
-  padding-bottom: 100px;
-  line-height: 1.4;
-}
-
-.external_links{
- color: deeppink;
- font-family: "MaisonNeue-Medium";
- font-weight: 300;
- padding-top: 20px;
-}
 
 @media screen and (width: 600px){
   .title{
@@ -327,7 +242,7 @@ h5{
   font-size: 30px;
   line-height: 0.3;
   font-family:"BoogyBrutTEST-Book";
-  color:rgb(255, 255, 255);
+  color:rgb(0, 0, 0);
   padding-left: 5px;
 }
 
@@ -335,7 +250,7 @@ h5{
   font-size: 15px;
   padding-top: 20px;
   padding-left: 5px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-family: "MaisonNeue-Light";
 }
 
@@ -350,7 +265,7 @@ h5{
   color: black;
   font-size: 28px;
   padding-left: 30px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .number{
@@ -375,7 +290,7 @@ h5{
 
 .info{
   background-color: rgb(0, 0, 0);
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 14px;
   font-family: "MaisonNeue-Light";
   overflow-wrap: break-word;
@@ -397,37 +312,7 @@ h5{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .custom-cursor {
+.custom-cursor {
 width: 40px;
 height: 40px;
 background: rgba(0, 0, 0, 1);
@@ -548,11 +433,13 @@ z-index: 9999;
   }
 
 }
-.speakers-container{
-  /* display: flex;
-  flex-direction: row;
-  background-color: rgb(255, 255, 255);
-  position: absolute;
-  top: 550px;
-  z-index: -1; */
-}
+
+  .speakers-container{
+    /* display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 550px;
+    z-index: -1; */
+  
+
