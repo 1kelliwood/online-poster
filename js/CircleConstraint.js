@@ -18,12 +18,12 @@ let random = new c2.Random();
 
 let world = new c2.World(new c2.Rect(0, 0, renderer.width, renderer.height));
 
-for(let i=0; i<renderer.canvas.parentElement.clientWidth/15; i++){
+for(let i=0; i<renderer.canvas.parentElement.clientWidth/14; i++){
   let x = random.next(renderer.width);
   let y = random.next(renderer.height);
   let p = new c2.Particle(x, y);
   p.radius = random.next(10, renderer.height/14);
-  p.color = c2.Color.hsl(235, 61, 50);
+  p.color = c2.Color.hsl(235, 77, 55);
 
 
 

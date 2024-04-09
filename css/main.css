@@ -73,7 +73,7 @@ a{
 }
 
 #content{
-  font-family: "MaisonNeue-Light";
+  font-family: "MaisonNeue-Medium";
   padding: 35px;
   color: rgb(0, 0, 0);
   margin: 0;
@@ -94,9 +94,11 @@ a{
 
 h1,
 h2 {
-  font-size: 4.1vw;
+  font-size: 24px;
   color: black;
-  padding-top: 70px;
+  padding-top: 80px;
+  margin: -2px;
+
 }
 h3,
 h4,
@@ -112,31 +114,31 @@ h5{
 }
 
 .title{
-  margin: 28px -24px 0;
+  margin: 1px -24px 0;
   font-family: "MaisonNeue-Thin";
   font-size: 6vw;
 }
 
 .title-emphasized{
-  font-size: 12vw;
+  font-size: 12.3vw;
   font-family: "MaisonNeue-Bold";
   display: inline-block;
-  margin: 0 -3px;
+  margin: 0 -2px;
 }
 
 .subtitle{
-  font-size: 2vw;
+  font-size: 22px;
   line-height: 0.9;
-  font-family: "BoogyBrutTEST-Book";
+  font-family: "MaisonNeue-Medium";
   font-weight: 300;
-  padding-top: 80px;
   color:  rgb(50, 63, 205);
+  margin: 0 -4px;
 }
 
 .event{
   width: 100%;
-  max-width: 475px;
-  padding-top: 100px;
+  max-width: 465px;
+  padding-top: 10px;
 }
 
 .speakers-title{
@@ -149,24 +151,25 @@ h5{
 .speakers-subtitle{
   font-size: 40px;
   color: deeppink;
-  font-family: "MaisonNeue-Light";
+  font-family: "MaisonNeue-Medium";
 }
 
 
 .name{
   font-family: "BoogyBrutTEST-Book";
   color: rgb(50, 63, 205);
-  font-size: 27px;
+  font-size: 24px;
   padding-left: 35px;
+  line-height: 1.2;
+  padding-bottom: 10px;
 }
-
 
 .date,
 .time,
 .location{
   font-family: "MaisonNeue-Medium";
   font-size: 18px;
-  line-height: 1.3;
+  line-height: 1.4;
   padding-left: 35px;
 }
 
@@ -183,6 +186,7 @@ h5{
  font-family: "MaisonNeue-Medium";
  font-weight: 300;
  padding-top: 20px;
+ font-size:
 
 }
 
@@ -193,9 +197,8 @@ h5{
   }
 
   .event{
-    padding-top: 100px;
+    padding-top: 50px;
     padding-left: 40px;
-    padding: 30px;
   }
 }
 
