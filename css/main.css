@@ -93,14 +93,18 @@ a{
 
 
 h1,
-h2 {
-  font-size: 24px;
+h2{
+  font-size: 36px;
   color: black;
-  padding-top: 80px;
+  padding-top: 50px;
   margin: -2px;
-
 }
-h3,
+h3{
+  font-size: 48px;
+  color: black;
+  padding-top: 30px;
+  margin: -2px;
+}
 h4,
 h5{
   color: rgb(0, 0, 0);
@@ -120,9 +124,10 @@ h5{
 }
 
 .title-emphasized{
-  font-size: 12.3vw;
+  font-size: 12vw;
   font-family: "MaisonNeue-Bold";
   display: inline-block;
+  line-height: 0.8;
   margin: 0 -2px;
 }
 
