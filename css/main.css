@@ -114,24 +114,26 @@ a{
 }
 
 #headline h2{
-  font-size: 3.5vw;
+  font-size: 2.5vw;
   font-family: "MaisonNeue-Mono";
+  padding: 15px;
+
 }
 
 #headline h3{
-  font-size: 2.5vw;
+  font-size: 2vw;
   line-height: 0.9;
   font-family: "MaisonNeue-Mono";
   font-weight: 300;
   color:  rgb(0, 0, 0);
   /* margin: 0 -4px; */
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .event{
   width: 100%;
-  max-width: 368px;
-  padding-top: 10px;
+  max-width: 400px;
+
 }
 
 .speakers-title{
@@ -169,7 +171,7 @@ a{
   font-size: 13px;
   font-family: "MaisonNeue-Light";
   overflow-wrap: break-word;
-  padding: 20px 35px;
+  padding: 15px 20px;
   line-height: 1.4;
 }
 
@@ -190,7 +192,7 @@ a{
 
   .event{
     padding: 50px 20px;
-    max-width: 320px;
+    max-width: 330px;
   }
 }
 
