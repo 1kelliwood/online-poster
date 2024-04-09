@@ -22,23 +22,17 @@
   font-family: "MaisonNeue-Book";
   src: url("../fonts/MaisonNeueTRIAL-Book.otf") format("opentype");
 }
+
+@font-face {
+  font-family: "MaisonNeue-Demi";
+  src: url("../fonts/MaisonNeueTRIAL-Demi.otf") format("opentype");
+}
+
   
-@font-face{
-  font-family: "BoogyBrut_TESTLight";
-  src: url("../fonts/BoogyBrutTEST-Light.otf") format("opentype");
+@font-face {
+  font-family: "MaisonNeue-Mono";
+  src: url("../fonts/MaisonNeueMono-Regular.otf") format("opentype");
 }
-
-@font-face{
-  font-family: "BoogyBrutTEST-Book";
-  src: url("../fonts/BoogyBrutTEST-Book.otf") format("opentype");
-}
-
-@font-face{
-  font-family: "BoogyBrutTEST-Medium";
-  src: url("../fonts/BoogyBrutTEST-Medium.otf") format("opentype");
-}
-
-
 
           
 :root{
@@ -48,7 +42,7 @@
 body{
   position: relative;
   height: 100vh;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(252, 251, 250);
 }
 
 h1,
@@ -101,7 +95,7 @@ a{
 
 #headline h1{
   margin: 1px -10px 45px;
-  font-family: "MaisonNeue-Thin";
+  font-family: "MaisonNeue-Light";
   font-size: 6vw;
   padding-top: 50px;
   /* padding-left: 35px; */
@@ -120,13 +114,14 @@ a{
 }
 
 #headline h2{
-
+  font-size: 3.5vw;
+  font-family: "MaisonNeue-Mono";
 }
 
 #headline h3{
-  font-size: 18px;
+  font-size: 2.5vw;
   line-height: 0.9;
-  font-family: "MaisonNeue-Thin";
+  font-family: "MaisonNeue-Mono";
   font-weight: 300;
   color:  rgb(0, 0, 0);
   /* margin: 0 -4px; */
@@ -152,10 +147,9 @@ a{
   font-family: "MaisonNeue-Medium";
 }
 
-
 .name{
-  font-family: "BoogyBrutTEST-Book";
-  color: rgb(50, 63, 205);
+  font-family: "MaisonNeue-Demi";
+  color: rgb(0, 0, 0);
   font-size: 24px;
   padding-left: 35px;
   line-height: 1.2;
@@ -196,6 +190,7 @@ a{
 
   .event{
     padding: 50px 20px;
+    max-width: 320px;
   }
 }
 
