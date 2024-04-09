@@ -11,20 +11,21 @@ document.addEventListener("mousemove",function(e){
 const renderer = new c2.Renderer(document.getElementById('c2'));
 resize();
 
-// Removed background for transparency of typopgraphy 
+// Removed background for transparency of typography 
 //renderer.background('#cccccc');
 let random = new c2.Random();
 
 
 let world = new c2.World(new c2.Rect(0, 0, renderer.width, renderer.height));
 
-for(let i=0; i<renderer.canvas.parentElement.clientWidth/25; i++){
+for(let i=0; i<renderer.canvas.parentElement.clientWidth/15; i++){
   let x = random.next(renderer.width);
   let y = random.next(renderer.height);
   let p = new c2.Particle(x, y);
   p.radius = random.next(10, renderer.height/14);
   p.color = c2.Color.hsl(235, 61, 50);
- 
+
+
 
   world.addParticle(p);
 }
@@ -34,7 +35,7 @@ let collision = new c2.Collision();
 world.addInteractionForce(collision);
 
 let pointField = new c2.PointField(new c2.Point(renderer.width/2, renderer.height/2), 1);
-world.addForce(pointField);
+//world.addForce(pointField);
 
 let circle = new c2.Circle(renderer.width/4, renderer.height/4, renderer.height/8);
 let circleConstraint = new c2.CircleConstraint(circle);

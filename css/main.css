@@ -75,13 +75,13 @@ a{
 #content{
   font-family: "MaisonNeue-Light";
   padding: 35px;
-  color: deeppink;
+  color: rgb(0, 0, 0);
   margin: 0;
 }
 
-section {
+/* section {
   min-height: 100vh;
-}
+} */
 
 #c2{
   position: fixed;
@@ -91,37 +91,15 @@ section {
   z-index: 3;
 }
 
-#speakers-container section{
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-}
-
-#speakers-banner{
-  font-size: 30px;
-  font-style: "MaisonNeue-Light";
-  color: rgb(0, 0, 0);
-
-}
-
-#show-speakers{
-  font-size: 20px;
-  padding-left: 30px;
-  color: rgb(0, 0, 0);
-  font-family: "MaisonNeue-Light";
-}
 
 h1,
-h2{
-  color: deeppink; 
+h2 {
+  font-size: 4.1vw;
+  color: black;
+  padding-top: 70px;
 }
 h3,
-h4 { 
-  padding-top: 100px;
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-  font-family: "MaisonNeue-Thin";
-
-}
+h4,
 h5{
   color: rgb(0, 0, 0);
 }
@@ -134,62 +112,54 @@ h5{
 }
 
 .title{
-  margin: 128px -30px 0;
+  margin: 28px -24px 0;
   font-family: "MaisonNeue-Thin";
-  font-size: 7.8vw;
+  font-size: 6vw;
 }
 
 .title-emphasized{
   font-size: 12vw;
   font-family: "MaisonNeue-Bold";
   display: inline-block;
-  margin: 0 -1px;
+  margin: 0 -3px;
 }
 
 .subtitle{
-  font-size: 30px;
+  font-size: 2vw;
   line-height: 0.9;
-  font-family: "MaisonNeue-Medium";
+  font-family: "BoogyBrutTEST-Book";
   font-weight: 300;
-  text-transform: uppercase;
-  color: rgb(0, 0, 0);
+  padding-top: 80px;
+  color:  rgb(50, 63, 205);
 }
 
 .event{
-  width: 600px;
+  width: 100%;
+  max-width: 475px;
+  padding-top: 100px;
 }
 
 .speakers-title{
-  font-size: 30px;
+  font-size: 20px;
   line-height: 0.3;
   font-family:"BoogyBrutTEST-Book";
   color:rgb(0, 0, 0);
 }
 
 .speakers-subtitle{
-  font-size: 15px;
+  font-size: 40px;
   color: deeppink;
   font-family: "MaisonNeue-Light";
 }
 
-.dot{
-  border-radius: 50%;
-  display: inline-block;
-  animation-name: inherit;
-}
 
 .name{
   font-family: "BoogyBrutTEST-Book";
-  color: black;
-  font-size: 28px;
+  color: rgb(50, 63, 205);
+  font-size: 27px;
   padding-left: 35px;
 }
 
-.number{
-  font-family: "BoogyBrutTEST-Black";
-  font-size: 150px;
-  padding-left: 30px;
-}
 
 .date,
 .time,
@@ -209,15 +179,23 @@ h5{
 }
 
 .external_links{
- color: rgb(0, 0, 0);
+ color: rgb(50, 63, 205);
  font-family: "MaisonNeue-Medium";
  font-weight: 300;
  padding-top: 20px;
+
 }
 
 @media screen and (min-width: 600px){
   #speakers-container{
     display: flex;
+    flex-flow: row wrap;
+  }
+
+  .event{
+    padding-top: 100px;
+    padding-left: 40px;
+    padding: 30px;
   }
 }
 
