@@ -94,10 +94,10 @@ a{
 }
 
 #headline h1{
-  margin: 1px -10px 45px;
+  margin: 1px -20px 45px;
   font-family: "MaisonNeue-Light";
-  font-size: 6vw;
-  padding-top: 50px;
+  font-size: 7.6vw;
+  padding-top: 75px;
   /* padding-left: 35px; */
   line-height: 0.9;
   color: rgb(0, 0, 0);
@@ -105,49 +105,37 @@ a{
 }
 
 #headline h1 .emphasized{
-  font-size: 11.8vw;
+  font-size: 11vw;
   font-family: "MaisonNeue-Bold";
   display: inline-block;
-  line-height: 0.8;
-  margin: 0 -4px;
+  line-height: 0.9;
+  margin: 0px;
   /* padding-left: 35px; */
 }
 
 #headline h2{
-  font-size: 2.5vw;
+  font-size: 2.8vw;
   font-family: "MaisonNeue-Mono";
   padding: 15px;
 
 }
 
 #headline h3{
-  font-size: 2vw;
+  font-size: 2.3vw;
   line-height: 0.9;
   font-family: "MaisonNeue-Mono";
   font-weight: 300;
   color:  rgb(0, 0, 0);
   /* margin: 0 -4px; */
   padding-top: 20px;
+  padding-left: 15px;
 }
 
 .event{
   width: 100%;
   max-width: 400px;
-
 }
 
-.speakers-title{
-  font-size: 20px;
-  line-height: 0.3;
-  font-family:"BoogyBrutTEST-Book";
-  color:rgb(0, 0, 0);
-}
-
-.speakers-subtitle{
-  font-size: 40px;
-  color: deeppink;
-  font-family: "MaisonNeue-Medium";
-}
 
 .name{
   font-family: "MaisonNeue-Demi";
@@ -168,10 +156,10 @@ a{
 }
 
 .info{
-  font-size: 13px;
+  font-size: 12px;
   font-family: "MaisonNeue-Light";
   overflow-wrap: break-word;
-  padding: 15px 20px;
+  padding: 35px 35px;
   line-height: 1.4;
 }
 
