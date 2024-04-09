@@ -34,9 +34,11 @@
 }
 
 @font-face{
-  font-family: "Sometimes Family";
-  src: url("../fonts/Sometimes\ Times.ttf") format("opentype");
+  font-family: "BoogyBrutTEST-Medium";
+  src: url("../fonts/BoogyBrutTEST-Medium.otf") format("opentype");
 }
+
+
 
           
 :root{
@@ -142,7 +144,7 @@ h5{
 .subtitle{
   font-size: 22px;
   line-height: 0.9;
-  font-family: "Sometimes Family";
+  font-family: "MaisonNeue-Bold";
   font-weight: 300;
   color:  rgb(0, 0, 0);
   margin: 0 -4px;
