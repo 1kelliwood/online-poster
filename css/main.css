@@ -32,6 +32,12 @@
   font-family: "BoogyBrutTEST-Book";
   src: url("../fonts/BoogyBrutTEST-Book.otf") format("opentype");
 }
+
+@font-face{
+  font-family: "Sometimes Family";
+  src: url("../fonts/Sometimes\ Times.ttf") format("opentype");
+}
+
           
 :root{
   line-height: 1.5;
@@ -84,7 +90,7 @@ a{
 } */
 
 #c2{
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 3;
@@ -94,7 +100,7 @@ a{
 
 h1,
 h2{
-  font-size: 36px;
+  font-size: 28px;
   color: black;
   padding-top: 50px;
   margin: -2px;
@@ -121,23 +127,26 @@ h5{
   margin: 1px -24px 0;
   font-family: "MaisonNeue-Thin";
   font-size: 6vw;
+  padding-left: 35px;
 }
 
 .title-emphasized{
-  font-size: 12vw;
+  font-size: 11.8vw;
   font-family: "MaisonNeue-Bold";
   display: inline-block;
   line-height: 0.8;
-  margin: 0 -2px;
+  margin: 0 -4px;
+  padding-left: 35px;
 }
 
 .subtitle{
   font-size: 22px;
   line-height: 0.9;
-  font-family: "MaisonNeue-Medium";
+  font-family: "Sometimes Family";
   font-weight: 300;
-  color:  rgb(50, 63, 205);
+  color:  rgb(0, 0, 0);
   margin: 0 -4px;
+  padding-left: 35px;
 }
 
 .event{

@@ -7,6 +7,7 @@ document.addEventListener("mousemove",function(e){
 })
 
 const renderer = new c2.Renderer(document.getElementById('c2'));
+
 resize();
 
 const palette = [
@@ -107,7 +108,7 @@ renderer.draw(() => {
 window.addEventListener('resize', resize);
 function resize() {
     let parent = renderer.canvas.parentElement;
-    renderer.size(parent.clientWidth, parent.clientWidth / parent.clientWidth * parent.clientHeight);
+    renderer.size(parent.clientWidth * 2, parent.clientWidth / parent.clientWidth * parent.clientHeight * 2);
 }
 
 
