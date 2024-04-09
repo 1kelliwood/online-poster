@@ -96,7 +96,7 @@ a{
 #headline h1{
   margin: 1px -20px 45px;
   font-family: "MaisonNeue-Light";
-  font-size: 7.6vw;
+  font-size: 7vw;
   padding-top: 75px;
   /* padding-left: 35px; */
   line-height: 0.9;
@@ -114,26 +114,24 @@ a{
 }
 
 #headline h2{
-  font-size: 2.8vw;
+  font-size: 20px;
   font-family: "MaisonNeue-Mono";
-  padding: 15px;
 
 }
 
 #headline h3{
-  font-size: 2.3vw;
+  font-size: 26px;
   line-height: 0.9;
   font-family: "MaisonNeue-Mono";
   font-weight: 300;
   color:  rgb(0, 0, 0);
   /* margin: 0 -4px; */
-  padding-top: 20px;
-  padding-left: 15px;
+  padding-top: 90px;
 }
 
 .event{
   width: 100%;
-  max-width: 400px;
+  max-width: 385px;
 }
 
 
