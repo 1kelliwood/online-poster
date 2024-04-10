@@ -97,7 +97,7 @@ a{
 }
 
 #headline{
-  padding: 35px;
+  padding: 25px;
 }
 
 #headline h1{
@@ -106,13 +106,13 @@ a{
   font-size: 7vw;
   padding-top: 75px;
   /* padding-left: 35px; */
-  line-height: 0.9;
+  line-height: 1;
   color: rgb(0, 0, 0);
   text-transform: uppercase;   
 }
 
 #headline h1 .emphasized{
-  font-size: 11.5vw;
+  font-size: 11.9vw;
   font-family: "MaisonNeue-Bold";
   display: inline-block;
   line-height: 0.9;
@@ -128,7 +128,7 @@ a{
 }
 
 #headline h3{
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.2;
   font-family: "MaisonNeue-Mono";
   font-weight: 300;
@@ -157,7 +157,7 @@ a{
 .location{
   font-family: "MaisonNeue-Medium";
   font-size: 18px;
-  line-height: 1.4;
+  line-height: 1.2;
   padding-left: 35px;
 }
 
