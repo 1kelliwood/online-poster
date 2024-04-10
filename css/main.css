@@ -93,7 +93,7 @@ a{
   left: 0;
   z-index: -1;
   cursor: none;
-  opacity: .4;
+  opacity: 1;
 }
 
 #headline{
@@ -197,6 +197,10 @@ a{
 
 }
 
+
+/* Eliminated concepts from Critique (Thursday, April 4)
+
+
 /* .speakers-title{
   font-size: 30px;
   line-height: 0.3;
@@ -271,6 +275,8 @@ a{
 
 /*
 
+/* Eliminated concepts from Critique March 26/28
+
 .custom-cursor {
 width: 40px;
 height: 40px;
@@ -297,7 +303,7 @@ z-index: 9999;
 
 
 
-/* Second critique concept
+/* Eliminated ideas from Concept 2
 #anther_kiley_dot {
   margin-top: 50px;
   margin-left: 75px;
