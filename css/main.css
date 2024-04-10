@@ -23,13 +23,7 @@
   src: url("../fonts/MaisonNeueTRIAL-Book.otf") format("opentype");
 }
 
-@font-face {
-  font-family: "MaisonNeue-Demi";
-  src: url("../fonts/MaisonNeueTRIAL-Demi.otf") format("opentype");
-}
-
-  
-@font-face {
+  @font-face {
   font-family: "MaisonNeue-Mono";
   src: url("../fonts/MaisonNeueMono-Regular.otf") format("opentype");
 }
@@ -76,7 +70,7 @@ a{
 
 #headline,
 #speakers-container{
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(1px);
   -webkit-backdrop-filter: blur(2px);
 }
 
@@ -144,7 +138,7 @@ a{
 
 
 .name{
-  font-family: "MaisonNeue-Demi";
+  font-family: "MaisonNeue-Medium";
   color: rgb(0, 0, 0);
   font-size: 24px;
   padding-left: 35px;
@@ -157,12 +151,12 @@ a{
 .location{
   font-family: "MaisonNeue-Medium";
   font-size: 18px;
-  line-height: 1.2;
+  line-height: 1.3;
   padding-left: 35px;
 }
 
 .info{
-  font-size: 12px;
+  font-size: 13px;
   font-family: "MaisonNeue-Light";
   overflow-wrap: break-word;
   padding: 35px 40px;
