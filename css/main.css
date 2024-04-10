@@ -74,7 +74,13 @@ a{
   text-decoration: none;
 }
 
-#content{
+#headline,
+#speakers-container{
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+}
+
+#headline{
   font-family: "MaisonNeue-Medium";
   padding: 35px;
   color: rgb(0, 0, 0);
@@ -85,8 +91,9 @@ a{
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 3;
+  z-index: -1;
   cursor: none;
+  opacity: .4;
 }
 
 #headline{
@@ -121,7 +128,7 @@ a{
 }
 
 #headline h3{
-  font-size: 26px;
+  font-size: 24px;
   line-height: 1.2;
   font-family: "MaisonNeue-Mono";
   font-weight: 300;
@@ -158,7 +165,7 @@ a{
   font-size: 12px;
   font-family: "MaisonNeue-Light";
   overflow-wrap: break-word;
-  padding: 35px 35px;
+  padding: 35px 40px;
   line-height: 1.4;
 }
 
@@ -172,6 +179,12 @@ a{
 }
 
 @media screen and (min-width: 600px){
+  
+  #c2{
+    z-index: 3;
+    opacity: 1;
+  }
+  
   #speakers-container{
     display: flex;
     flex-flow: row wrap;
@@ -181,6 +194,7 @@ a{
     padding: 50px 20px;
     max-width: 330px;
   }
+
 }
 
 /* .speakers-title{
