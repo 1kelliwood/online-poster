@@ -70,7 +70,7 @@ a{
 
 #headline,
 #speakers-container{
-  backdrop-filter: blur(1px);
+  backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(2px);
 }
 
